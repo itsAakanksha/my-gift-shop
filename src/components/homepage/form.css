@@ -1,0 +1,19 @@
+.model-wrapper{
+    position: fixed;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #d4cadb;
+    /* opacity: 0.9; */
+
+    
+}
+
+.model-container{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80vw;
+}
