@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Gift = () => {
   const gifts = [
     {
@@ -177,13 +177,13 @@ const Gift = () => {
                       Description: {gift.snippet}
                     </p>
 
-                    <a
-                      href={gift.link}
+                    <Link
+                      to={gift.link}
                       className="btn btn-primary self-end bg-blue-500 hover:bg-blue-600 inline-flex items-center space-x-2 px-4 py-2 rounded-md shadow-md hover:shadow-lg transition duration-300 ease-in-out"
                     >
                       <i className="fa fa-shopping-cart text-white"></i>
                       <span className="text-white">Buy Now</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../script";
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 

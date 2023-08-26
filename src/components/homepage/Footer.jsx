@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,19 +10,19 @@ const Footer = () => {
         <p className="mb-4 text-sm">&copy; 2017–2023 GIFTBOTIQUE. All rights reserved.</p>
         <ul className="flex justify-center space-x-6">
           <li>
-            <a href="#" className="text-blue-500 hover:text-blue-300 transition duration-300">
+            <Link to="/" className="text-blue-500 hover:text-blue-300 transition duration-300">
               Privacy
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="text-blue-500 hover:text-blue-300 transition duration-300">
+            <Link to="/" className="text-blue-500 hover:text-blue-300 transition duration-300">
               Terms
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="text-blue-500 hover:text-blue-300 transition duration-300">
+            <Link to="/" className="text-blue-500 hover:text-blue-300 transition duration-300">
               Support
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
