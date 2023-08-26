@@ -80,7 +80,7 @@ function GiftIdeasForm() {
         <div className="row g-5">
           <div>
             <form
-              className="w-full max-w-lg mx-auto my-4 bg-opacity-30 backdrop-blur-lg bg-white bg-opacity-10 p-6 rounded-lg shadow-lg"
+              className="w-full max-w-lg mx-auto my-4 bg-opacity-30 backdrop-blur-lg bg-white p-6 rounded-lg shadow-lg"
               action="/gifts"
               method="post"
               onSubmit={handleSubmit}
